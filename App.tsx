@@ -74,10 +74,10 @@ function App() {
               
               <div className="relative">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white transform rotate-2 hover:rotate-0 transition-all duration-500">
-                  {/* Updated Image: Caregiver and Elderly Person */}
+                  {/* Hero Image: Caregiver in blue shirt (Personal Care) as requested */}
                   <img 
-                    src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2000&auto=format&fit=crop" 
-                    alt="Caregiver helping senior woman" 
+                    src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=2000&auto=format&fit=crop" 
+                    alt="Compassionate caregiver in blue shirt providing assistance to a senior woman" 
                     className="w-full h-[500px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-everwell-900/30 to-transparent"></div>
@@ -106,10 +106,13 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="order-2 lg:order-1 relative">
-                <div className="grid grid-cols-2 gap-4">
-                   {/* Updated Images: Caregiving scenes */}
-                  <img src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?q=80&w=800&auto=format&fit=crop" alt="Caregiver holding senior hand" className="rounded-2xl shadow-lg w-full h-64 object-cover" />
-                  <img src="https://images.unsplash.com/photo-1581056771107-24ca5f025052?q=80&w=800&auto=format&fit=crop" alt="Caregiver walking with senior" className="rounded-2xl shadow-lg w-full h-64 object-cover translate-y-8" />
+                {/* About Image: Senior and Caregiver Laughing/Hugging (Companionship) */}
+                <div className="relative rounded-2xl overflow-hidden shadow-lg border border-everwell-100 h-96">
+                   <img 
+                     src="https://images.unsplash.com/photo-1516307073027-e4e69f7831f8?q=80&w=1200&auto=format&fit=crop" 
+                     alt="Senior woman and younger companion laughing together in a warm home setting" 
+                     className="w-full h-full object-cover" 
+                   />
                 </div>
               </div>
               <div className="order-1 lg:order-2">
